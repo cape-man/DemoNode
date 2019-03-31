@@ -1,0 +1,10 @@
+{
+  "name": "db",
+  "connector": "mongodb",
+  "url": "",
+  "host": "ig-connect-one.southeastasia.cloudapp.azure.com",
+  "port": 27017,
+  "user": "ravishankar.rsd",
+  "password": "ravishankardubey",
+  "database": "test"
+}
