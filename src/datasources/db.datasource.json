@@ -2,9 +2,9 @@
   "name": "db",
   "connector": "mongodb",
   "url": "",
-  "host": "ig-connect-one.southeastasia.cloudapp.azure.com",
-  "port": 27017,
-  "user": "ravishankar.rsd",
-  "password": "ravishankardubey",
-  "database": "test"
+  "host": "quarterly-quill.southindia.cloudapp.azure.com",
+  "port": 6380,
+  "user": "mongouser",
+  "password": "Sac123",
+  "database": "quill"
 }

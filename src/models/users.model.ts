@@ -11,34 +11,39 @@ export class Users extends Entity {
 
   @property({
     type: 'string',
+    required: true,
   })
   name?: string;
 
-  @property({
-    type: 'string',
-  })
-  browser?: string;
+  @property.array(String)
+  browser?: string[];
 
-  @property({
-    type: 'string',
-  })
-  os?: string;
+  @property.array(String)
+  os?: string[];
 
-  @property({
-    type: 'string',
-  })
-  country?: string;
+  @property.array(String)
+  country?: string[];
 
-  @property({
-    type: 'string',
-  })
-  city?: string;
+  @property.array(String)
+  city?: string[];
+
+  @property.array(String)
+  region?: string[];
 
   @property({
     type: 'number',
   })
-  pincode?: number;
+  stepCount?: number;
 
+  @property({
+    type: 'number',
+  })
+  gameCount?: number;
+
+  @property({
+    type: 'number',
+  })
+  mobileCount?: number;
 
   constructor(data?: Partial<Users>) {
     super(data);
