@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: 'quarterly-quil',
+    name: 'node-demo',
     script: 'index.js',
     instances: 1,
     autorestart: true,
