@@ -2,9 +2,9 @@
   "name": "db",
   "connector": "mongodb",
   "url": "",
-  "host": "quarterly-quill.southindia.cloudapp.azure.com",
+  "host": "capedemo.mindtree.com",
   "port": 6380,
-  "user": "mongouser",
-  "password": "Sac123",
-  "database": "quill"
+  "user": "nodetest",
+  "password": "nodetest",
+  "database": "nodeTest"
 }
