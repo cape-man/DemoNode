@@ -2,7 +2,7 @@
   "name": "db",
   "connector": "mongodb",
   "url": "",
-  "host": "capedemo.mindtree.com",
+  "host": "cape-demo.southeastasia.cloudapp.azure.com",
   "port": 6380,
   "user": "nodetest",
   "password": "nodetest",
